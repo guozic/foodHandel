@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FoodhandelApplication {
 
     public static void simpleRead() {
-        String fileName = "G:\\work\\excelHandle\\foodhandel\\src\\main\\resources\\0630.xlsx";
+        String fileName = "G:\\work\\food\\src\\main\\resources\\0701.xlsx";
         ExcelReader excelReader = null;
         try {
             excelReader = EasyExcel.read(fileName, Food.class, new FoodDataListener()).build();

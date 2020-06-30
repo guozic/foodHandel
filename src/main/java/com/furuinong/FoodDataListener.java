@@ -180,7 +180,7 @@ public class FoodDataListener extends AnalysisEventListener<Food> {
         map.put(sheetName18, list18);
 
 //     根据上面的方法得到的list进行新建excel
-        String fileName = "G:\\work\\excelHandle\\foodhandel\\src\\main\\resources\\0630New.xlsx";
+        String fileName = "G:\\work\\food\\src\\main\\resources\\0701New.xlsx";
         // 这里 指定文件
         ExcelWriter excelWriter = EasyExcel.write(fileName).build();
         try {
